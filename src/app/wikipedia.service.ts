@@ -1,9 +1,14 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class WikipediaService {
 
-  constructor() { }
+  constructor() {
+  }
+
+  public search(term: string) {
+    return 'I am wiki search results';
+  }
 }
